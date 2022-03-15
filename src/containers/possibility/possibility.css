@@ -41,6 +41,7 @@
   font-size: 34px;
   line-height: 45px;
   /* or 132% */
+  margin-top: 1rem;
 }
 
 .gpt3__possibility-content p {

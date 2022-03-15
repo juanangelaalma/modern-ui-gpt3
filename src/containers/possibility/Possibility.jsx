@@ -1,9 +1,20 @@
 import React from 'react'
 import './possibility.css'
+import possibility from "../../assets/possibility.png"
 
 const Possibility = () => {
   return (
-    <div>Possibility</div>
+    <div className='gpt3__possibility section__margin'>
+      <div className='gpt3__possibility-image'>
+        <img src={possibility} alt="Possibility" />
+      </div>
+      <div className='gpt3__possibility-content'>
+        <span>Request Early Access to Get Started</span>
+        <h1 className='gpt3__possibility-content_title gradient__text'>The possibilities are beyond your imagination</h1>
+        <p className='gpt3__possibility-content_text'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+        <p>Request Early Access to Get Started</p>
+      </div>
+    </div>
   )
 }
 

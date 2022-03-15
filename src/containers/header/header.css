@@ -110,6 +110,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  animation: scale-up-center 500ms;
 }
 
 .gpt3__header-image img {
@@ -171,3 +173,11 @@
   }
 }
 
+@keyframes scale-up-center {
+  0%{
+    transform: scale(.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

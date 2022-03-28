@@ -115,7 +115,7 @@
   }
 
   .gpt3__footer-content__list:nth-child(even) {
-    padding-left: 8rem;
+    padding-left: 4rem;
   }
 }
 
@@ -131,6 +131,6 @@
     width: 100%;
   }
   .gpt3__footer-content__list:nth-child(even) {
-    padding-left: 6rem;
+    padding-left: 2rem;
   }
 }
